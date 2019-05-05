@@ -22,11 +22,21 @@ class ContactDetailsVC: UIViewController, UITableViewDelegate, UITableViewDataSo
         tableView.delegate = self
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
+        contactNameLbl.text = contact.name
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(editDetails))
         tableView.reloadData()
         
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToEditDetailsVC" {
+            let modal = segue.destination as! EditDetailsModalVC
+            modal.contact = contact
+            modal.modalTransitionStyle = .crossDissolve
+            modal.modalPresentationStyle = .custom
+            present(modal, animated: true, completion: nil)
+        }
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
@@ -45,9 +55,12 @@ class ContactDetailsVC: UIViewController, UITableViewDelegate, UITableViewDataSo
             cell.cellHeaderLbl.text = "Company"
             cell.cellDetailsLbl.text = contact.company
         }
-        
         return cell
-        
     }
+
+    @objc func editDetails() {
+        performSegue(withIdentifier: segueToEditDetailsVC, sender: nil)
+    }
+    
     
 }

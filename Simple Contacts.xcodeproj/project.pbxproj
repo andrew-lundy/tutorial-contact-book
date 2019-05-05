@@ -18,6 +18,7 @@
 		260B551E22764B9C0066B27B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B551D22764B9C0066B27B /* Contact.swift */; };
 		26160112227F88DD0016F3A8 /* ContactDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26160111227F88DD0016F3A8 /* ContactDetailsCell.swift */; };
 		26160114227F896F0016F3A8 /* ContactDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26160113227F896F0016F3A8 /* ContactDetailsVC.swift */; };
+		26160116227F92D90016F3A8 /* EditDetailsModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26160115227F92D90016F3A8 /* EditDetailsModalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		260B551D22764B9C0066B27B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		26160111227F88DD0016F3A8 /* ContactDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsCell.swift; sourceTree = "<group>"; };
 		26160113227F896F0016F3A8 /* ContactDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsVC.swift; sourceTree = "<group>"; };
+		26160115227F92D90016F3A8 /* EditDetailsModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDetailsModalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				260B55022276491C0066B27B /* ContactListVC.swift */,
 				26160113227F896F0016F3A8 /* ContactDetailsVC.swift */,
+				26160115227F92D90016F3A8 /* EditDetailsModalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				260B551A22764ABA0066B27B /* ContactListCell.swift in Sources */,
 				26160112227F88DD0016F3A8 /* ContactDetailsCell.swift in Sources */,
 				260B55032276491C0066B27B /* ContactListVC.swift in Sources */,
+				26160116227F92D90016F3A8 /* EditDetailsModalVC.swift in Sources */,
 				26160114227F896F0016F3A8 /* ContactDetailsVC.swift in Sources */,
 				260B55012276491C0066B27B /* AppDelegate.swift in Sources */,
 				260B551822764A7A0066B27B /* Constants.swift in Sources */,
