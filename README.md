@@ -13,8 +13,8 @@ https://www.youtube.com/playlist?list=PLLSiyyii9kxvBWmot3YRGhwZ1JEG2wsO6
 You can also follow my process of becoming a software developer on YouTube:<br>
 https://www.youtube.com/channel/UCqpGxcaL_GXGN4pOABZTGfg
 
-As well as on Instagram and Twitter:<br>
-https://www.instagram.com/andrewlundy/
+And if you want to really conenct, follow me on Instagram and Twitter:<br>
+https://www.instagram.com/andrewlundy/<br>
 https://twitter.com/andrewlundy
 
 If you're looking to connect B2B:<br>
