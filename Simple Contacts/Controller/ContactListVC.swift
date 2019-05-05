@@ -37,7 +37,17 @@ class ContactListVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: segueToDetails, sender: nil)
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueToDetails {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let contactDetails = segue.destination as! ContactDetailsVC
+                contactDetails.contact = data.contacts[indexPath.row]
+            }
+        }
     }
 
 }
