@@ -7,15 +7,4 @@ We will be building a simple contact application that demonstrates passing local
 
 
 You can find the videos here:<br>
-https://www.youtube.com/playlist?list=PLLSiyyii9kxvBWmot3YRGhwZ1JEG2wsO6
-
-
-You can also follow my process of becoming a software developer on YouTube:<br>
-https://www.youtube.com/channel/UCqpGxcaL_GXGN4pOABZTGfg
-
-And if you want to really conenct, follow me on Instagram and Twitter:<br>
-https://www.instagram.com/andrewlundy/<br>
-https://twitter.com/andrewlundy
-
-If you're looking to connect B2B:<br>
-https://www.linkedin.com/in/andrewlundydev/
+https://www.youtube.com/playlist?list=PLLSiyyii9kxvsNFDqAEBJGiCqMmfDaNtX
