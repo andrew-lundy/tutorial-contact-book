@@ -1,4 +1,4 @@
-# simple-contacts-tutorial
+# tutorial-contact-book
 The source code for a set of tutorial videos I did on a few iOS development concepts. 
 
 In this tutorial I will teach you how to use TableViews, pass data with segues and build modals that you can use in your applications. 
